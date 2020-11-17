@@ -1,0 +1,29 @@
+import java.util.Scanner;
+public class Main{
+
+public static void main (String[] args) {
+  Scanner calculator = new Scanner(System.in);
+  int numberOne, numberTwo;
+  System.out.println("enter number one: ");
+  numberOne = calculator.nextInt();
+   System.out.println("enter number two: ");
+  numberTwo = calculator.nextInt();
+  
+  int addition = numberOne + numberTwo;
+  int subtraction = numberOne - numberTwo;
+  int multiplicaton = numberOne * numberTwo;
+  double devision = numberOne / numberTwo;
+  
+  int moduls = numberOne % numberTwo;
+  
+  System.out.println("the result of adding is "+ addition);
+  System.out.println("the result of subtract is "+ subtraction);
+  System.out.println("the result of multiply is "+ multiplicaton);
+  System.out.println("the result of devision is "+ devision);
+  System.out.println("the result of moduls is "+ moduls);
+   
+}
+
+
+
+}

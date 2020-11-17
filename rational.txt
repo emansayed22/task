@@ -1,0 +1,34 @@
+import java.util.Scanner;
+public class Main{
+
+public static void main (String[] args) {
+  Scanner calculator = new Scanner(System.in);
+  int numberOne, numberTwo;
+  System.out.println("enter number one: ");
+  numberOne = calculator.nextInt();
+   System.out.println("enter number two: ");
+  numberTwo = calculator.nextInt();
+
+boolean result = numberOne > numberTwo;
+System.out.println("numberOne > numberTwo: "+result);
+
+ result = numberOne < numberTwo;
+System.out.println("numberOne < numberTwo: "+result);
+
+ result = numberOne <= numberTwo;
+System.out.println("numberOne <= numberTwo: "+result);
+
+result = numberOne >= numberTwo;
+System.out.println("numberOne >= numberTwo: "+result);
+
+result = numberOne == numberTwo;
+System.out.println("numberOne == numberTwo: "+result);
+
+result = numberOne != numberTwo;
+System.out.println("numberOne != numberTwo: "+result);
+ 
+}
+
+
+
+}

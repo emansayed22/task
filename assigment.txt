@@ -1,0 +1,30 @@
+import java.util.Scanner;
+public class Main{
+
+public static void main (String[] args) {
+  Scanner calculator = new Scanner(System.in);
+  int numberOne, numberTwo;
+  System.out.println("enter number one: ");
+  numberOne = calculator.nextInt();
+   System.out.println("enter number two: ");
+  numberTwo = calculator.nextInt();
+  
+  numberOne+=numberTwo;
+  System.out.println("the result of adding is "+ numberOne);
+ 
+ numberOne-=numberTwo;
+  System.out.println("the result of subtracting is "+ numberOne);
+  
+  numberOne*=numberTwo;
+  System.out.println("the result of multiply is "+ numberOne);
+ 
+ numberOne/=numberTwo;
+  System.out.println("the result of devision is "+ numberOne);
+  
+  numberOne%=numberTwo;
+  System.out.println("the result of moduls is "+ numberOne); 
+}
+
+
+
+}
