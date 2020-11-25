@@ -1,0 +1,21 @@
+     import java.util.Scanner;
+    public class Main
+    {
+
+   
+      public static void main (String[]args)
+      {
+Scanner Sc = new Scanner (System.in);
+System.out.println("enter your 1st srting: ");
+String firstString = Sc . next();
+
+System.out.println("enter your 2nd srting: ");
+String secondString = Sc . next();
+
+Boolean contain = firstString.toLowerCase() .contains (secondString.toLowerCase());
+System.out.println("first string contains second string: "+contain);
+
+
+      }
+    
+    }

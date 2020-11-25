@@ -1,0 +1,45 @@
+ import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+	 
+	 Scanner Sc = new Scanner (System.in);
+	 System.out.println("please enter your grade?");
+	 String userGrade = Sc . next();
+	 
+	 switch(userGrade.toLowerCase() ) {
+	  
+	  case"fail":
+	       System.out.println("your grade is in range of 0 to 50");
+	     break;
+	     
+	   case"fair":
+	       System.out.println("your grade is in range of 50 to 65");
+	     break;
+	   
+	   case"good":
+	       System.out.println("your grade is in range of 65 to 75");
+	      break;
+	   
+	   	   case"very.good":
+	       System.out.println("your grade is in range of 75 to 85");
+	      break;
+	      
+	      
+	      	   case"excellent":
+	       System.out.println("your grade is in range of 85 to 100");
+	      break;
+	    
+	     
+	   default:
+	   System.out.println("this is not valid grade !!");
+	      break;
+	     
+	     
+	     
+
+	 }    
+	    
+	
+	}
+}

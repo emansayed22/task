@@ -1,0 +1,39 @@
+import java.util.Scanner;
+public class Main
+{
+  public static void main (String[]args)
+  {
+    int length;
+    Scanner Sc = new Scanner (System.in);
+      System.out.println ("please enter the number of names ");
+      length = Sc.nextInt ();
+    String array[] = new String[length];
+
+
+    for (int counter = 0; counter < length; counter++)
+      {
+	System.out.println ("please enter name " + (counter + 1));
+	array[counter] = Sc.next ();
+
+      }
+System.out.println("please enter member of the list to be found ");
+String userInput = Sc.next();
+
+    for (int counter = 0; counter < length; counter++)
+      {
+
+	if (array[counter] == userInput)
+	  {
+	    System.out.println ("found at index"+ counter);
+	  }
+	  
+	  else {
+	      System.out.println (" Not found " ); 
+	  }
+   
+      }
+
+  }
+
+
+}

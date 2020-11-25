@@ -1,0 +1,44 @@
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+		String name, mobile, email, age, faculty, department;
+
+    Scanner Sc = new Scanner (System.in);
+    String [] myFirstArray;
+    myFirstArray= new String [6];
+    System.out.println("please enter your name: ");
+   myFirstArray[0]= Sc.next();
+   System.out.println("please enter your mobile: ");
+     myFirstArray[1]= Sc.next();
+     System.out.println("please enter your email: ");
+     myFirstArray[2]= Sc.next();
+     System.out.println("please enter your age: ");
+     myFirstArray[3]= Sc.next();
+     System.out.println("please enter your faculty: ");
+     myFirstArray[4]= Sc.next();	 
+      System.out.println("please enter your department: ");
+     myFirstArray[5]= Sc.next();
+     
+	 printUserData(myFirstArray);
+	}
+	
+	  public static void printUserData(String [] myFirstArray){
+        
+         System.out.println("your name is "+myFirstArray[0]);
+     System.out.println("your mobile number is "+myFirstArray[1]);
+   System.out.println("your email is "+myFirstArray[2]);
+  System.out.println("your age is "+myFirstArray[3]);
+   System.out.println("your faculty is "+myFirstArray[4]);
+   System.out.println("your department is "+myFirstArray[5]);
+ 
+        
+        
+    }
+    
+	
+	
+	
+	
+	
+}
